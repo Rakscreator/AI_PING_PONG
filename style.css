@@ -1,0 +1,36 @@
+@font-face {
+    font-family: TESLA;
+    src: url(TESLA.ttf);
+}
+body
+{
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #00e1ff,
+    0 0 21px #00ccff,
+    0 0 42px #00ccff,
+    0 0 82px #00ccff,
+    0 0 92px #00ccff,
+    0 0 102px #00ccff,
+    0 0 151px #00ccff;
+    font-family: "TESLA";
+}
+.heading
+{
+    display: inline;
+}
+.play{
+    background: transparent;
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #00e1ff,
+    0 0 21px #00ccff,
+    0 0 42px #00ccff,
+    0 0 82px #00ccff,
+    0 0 92px #00ccff,
+    0 0 102px #00ccff,
+    0 0 151px #00ccff;
+    border: 2px solid white;
+}
