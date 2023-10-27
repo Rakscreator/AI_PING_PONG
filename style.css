@@ -1,6 +1,6 @@
 @font-face {
     font-family: TESLA;
-    src: url(TESLA.ttf);
+    src: url(Anurati\ Pro\ Regular\ copy.otf);
 }
 body
 {
@@ -15,6 +15,7 @@ body
     0 0 102px #00ccff,
     0 0 151px #00ccff;
     font-family: "TESLA";
+    text-transform: uppercase;
 }
 .heading
 {
@@ -33,4 +34,11 @@ body
     0 0 102px #00ccff,
     0 0 151px #00ccff;
     border: 2px solid white;
+}
+.footer{
+    background-color: transparent;
+    line-height: 3;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
 }
