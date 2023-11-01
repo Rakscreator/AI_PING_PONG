@@ -16,7 +16,7 @@ var ball = {
     r:20,
     dx:3,
     dy:3
-}
+} 
 
 function setup(){
   var canvas = createCanvas(700,600);
