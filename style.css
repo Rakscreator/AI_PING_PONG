@@ -42,3 +42,17 @@ body
     position: fixed;
     text-align: center;
 }
+canvas{
+    border: 3px solid rgb(177, 255, 255);
+    border-radius: 25px;
+    box-shadow: 
+    0 0 3px #fff,
+    0 0 5px #00e1ff,
+    0 0 10px #00ccff,
+    0 0 13px #00ccff,
+    0 0 16px #00ccff,
+    0 0 22px #00ccff,
+    0 0 25px #00ccff,
+    0 0 30px #00ccff;
+    font-family: "TESLA";
+}
