@@ -19,18 +19,12 @@ var ball = {
 }
 
 function setup(){
-<<<<<<< HEAD
-  var canvas = createCanvas(700,600);
+  canvas = createCanvas(700,600);
   canvas.parent("canvas");
   video = createCapture(VIDEO);
   video.size(700,600);
   video.hide();
   poseNet = ml5.poseNet(video, modelLoaded);
-=======
-  var canvas =  createCanvas(700,600);
-  canvas.center();
-  canvas.hide();
->>>>>>> refs/remotes/origin/main
 }
 
 
@@ -133,7 +127,6 @@ function move(){
   }
 }
 if(pcscore ==4){
-<<<<<<< HEAD
     fill("#000000");
     stroke(0)
     rect(0,0,width,height-1);
@@ -144,18 +137,6 @@ if(pcscore ==4){
     text("Reload The Page!",width/2,height/2+30)
     noLoop();
     pcscore = 0;
-=======
-  fill("#FFA500");
-  stroke(0)
-  rect(0,0,width,height-1);
-  fill("white");
-  stroke("white");
-  textSize(25)
-  text("Game Over!☹☹",width/2,height/2);
-  text("Reload The Page!",width/2,height/2+30)
-  noLoop();
-  pcscore = 0;
->>>>>>> refs/remotes/origin/main
 }
   if(ball.y+ball.r > height || ball.y-ball.r <0){
     ball.dy =- ball.dy;
@@ -182,11 +163,8 @@ function paddleInCanvas(){
   if(mouseY < 0){
     mouseY =0;
   }  
-<<<<<<< HEAD
 }
 
 function modelLoaded(){
   console.log("model_loaded");
-=======
->>>>>>> refs/remotes/origin/main
 }
