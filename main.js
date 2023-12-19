@@ -1,6 +1,6 @@
-rightwristX = "";
-rightwristY = "";
-rightwristSCORE = "";
+rightwristX = 0;
+rightwristY = 0;
+rightwristSCORE = 0;
 
 var paddle2 =10,paddle1=10;
 
@@ -73,7 +73,7 @@ function draw(){
    //function move call which in very important
     move();
 
-    if(rightwristSCORE > 0.00002){
+    if(rightwristSCORE > 0.01){
       fill("#ff0000");
       stroke("#ff0000");
       circle(rightwristX,rightwristY,20);
