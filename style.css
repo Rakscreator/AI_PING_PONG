@@ -21,7 +21,7 @@ body
 {
     display: inline;
 }
-.play{
+.button{
     background: transparent;
     color: #fff;
     text-shadow:
@@ -55,4 +55,8 @@ canvas{
     0 0 25px #00ccff,
     0 0 30px #00ccff;
     font-family: "Anurati Pro";
+}
+.close{
+    background-color: gray;
+    border-color: white;
 }
